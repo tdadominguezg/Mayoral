@@ -1,0 +1,84 @@
+[
+  {
+    "id": 0,
+    "name": "Chaquetón doble prenda bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 49.99,
+    "discount": 20,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/chaqueton-doble-prenda-bebe-nino_id_11-02418-063-L-4.JPG?v=20210428110108",
+    "color": ["Marino", "Rojo", "Crudo"]
+  },
+  {
+    "id": 1,
+    "name": "Chaqueta vestir bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 39.99,
+    "discount": 20,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/chaqueta-vestir-bebe-nino_id_11-02412-044-M-4.JPG?v=20210429045058",
+    "color": ["Marino", "Rojo", "Crudo"]
+  },
+  {
+    "id": 2,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 3,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 4,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 50,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 5,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 6,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 75,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 7,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 8,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  },
+  {
+    "id": 9,
+    "name": "Jersey ECOFRIENDS jacquard bebé niño",
+    "description": "Chaquetón de manga larga para bebé niño 6 a 36 Meses con puños abotonados. Cuello con capucha. Cierre con cremallera frontal y botones a presión. Chaleco para bebé niño 6 a 36 Meses. Cuello bomber. Cierre central delantero con cremallera.",
+    "price": 21.99,
+    "discount": 0,
+    "img": "https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/jersey-ecofriends-jacquard-bebe-nino_id_11-02373-062-M-4.JPG?v=20210615074558"
+  }
+]

@@ -1,0 +1,247 @@
+// Importamos datos de bootstrap.
+@import "~bootstrap/scss/bootstrap";
+
+// Creación de varibales globales para su uso por el documento.
+$colorBorde: #0172ea;
+$colorDiscount: #d9534f;
+$colorButton: #0172ea; 
+$colorGrey: #b7b7b7;
+$colorHover: #ea7901;
+$fontBold: 900;
+$fontMid: 400;
+$fontSize1: 24px;
+$fontSize2: 14px;
+
+// Estilo para el cuerpo.
+body {
+    padding: 2%;
+    font-family: 'Branding',Helvetica,Arial,sans-serif;
+}
+
+// Estilo para el input.
+input {
+    width: 50%;
+    background: $colorGrey url("./search_icons.svg") no-repeat 9px center; /*icono lupa*/
+    padding: 9px 10px 9px 32px;
+    border-radius: 0.5rem;
+    background-size: 25px;
+    padding-left: 45px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+    position: left;
+    display: inline-flex;
+}
+
+// Estilos para los iconos superiores de "+" y "-"
+.iconLess, .iconPlus {
+    font-weight: $fontBold;
+    font-size: 60px;
+    color: $colorGrey;
+    position: right;
+    display: inline-flex;
+    margin-bottom: 2.5rem;
+}
+.iconLess {
+    padding-left: 48rem;
+}
+.iconPlus {
+    margin-left: 2rem;
+}
+
+// Estilos al pasar el cursor sobre los botones.
+.iconPlus:hover, .iconLess:hover {
+    color: black;
+}
+
+// Estilos de los productos.
+.card {
+    width: 21rem !important;
+    display: inline-block;
+    height: 600px !important;
+    margin: 0.5%;
+    text-align: center;
+    border-color: $colorBorde;
+    box-shadow: 2px 2px 10px #eff0f2;
+    border-radius: 5px;
+
+    // Titulo del Producto.
+    .name {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0 0;
+        line-height: 24px;
+        width: 100%;
+        height: 40px;
+    }
+
+    // Diseño de Imagen
+    img {
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+        object-fit: none;
+    }
+
+    // Zoom imgen al pasar cursor.
+    .img:hover {
+        transform: scale(1.05); 
+    }
+
+    //  Posición de los parrafos.
+    span {
+        display: block;
+    }
+
+    // Precio Descuento
+    .discount {
+        color: $colorDiscount;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // Precio Anterior Descuento
+    .priceDiscount {
+        text-decoration: line-through;
+        color: $colorGrey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .price {
+        margin-top: 2rem;
+    }
+
+    // Precio General Global.
+    .globalPrice {
+        height: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: $fontMid;
+        position: inherit;
+    }
+
+    // Más Colores
+    .colors {
+        height: 11px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        color: $colorGrey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // Más Colores al pasar el cursor.
+    .colors:hover {
+        text-decoration: underline $colorBorde;
+        color: black;
+    }
+}
+
+// Estilo card hover.
+.card:hover {
+    width: 21rem !important;
+    display: inline-block;
+    height: 600px !important;
+    margin: 0.5%;
+    text-align: center;
+    border-color: $colorHover;
+    box-shadow: 2px 2px 10px #eff0f2;
+    border-radius: 5px;
+}
+
+// Estilo para el boton.
+button {
+    background-color: $colorButton !important;
+    border-color: $colorButton !important;
+    font-size: 14px;
+    border-radius: 5px !important;
+    margin-bottom: 10rem;
+}
+
+// Estilo boton al pasar cursor.
+button:hover {
+    background-color: $colorHover !important;
+    border-color: $colorHover !important;
+    font-size: 14px;
+    border-radius: 5px !important;
+    margin-bottom: 10rem;
+}
+
+/* Smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    // Estilos para los iconos superiores de "+" y "-"
+    .iconLess, .iconPlus {
+        display: flex;
+        position: absolute;
+        padding-left: 0px !important;
+        justify-content: center;
+        margin-top: -45%;
+    }
+    
+    .iconLess{
+        margin-left: 35%;
+    }
+    .iconPlus {
+        margin-left: 50%;
+    }
+
+    // Input Search.
+    input {
+        margin-top: 30%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    // Separador de contenido
+    .lineHR {
+        height: 1px;
+        width: 90%;
+        background-color: $colorGrey;
+        display:inline-block;
+        margin:5%;
+    }
+}
+
+/* Tablets  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+    // Estilos para los iconos superiores de "+" y "-"
+    .iconLess, .iconPlus {
+        display: flex;
+        position: absolute;
+        padding-left: 0px !important;
+        justify-content: center;
+        margin-top: -18%;
+    }
+    
+    .iconLess{
+        margin-left: 35%;
+    }
+    .iconPlus {
+        margin-left: 50%;
+    }
+
+    // Input Search.
+    input {
+        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    // Separador de contenido
+    .lineHR {
+        height: 1px;
+        width: 90%;
+        background-color: $colorGrey;
+        display:inline-block;
+        margin:5%;
+    }
+}
